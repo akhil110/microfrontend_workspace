@@ -1,0 +1,14 @@
+footer {
+  width: 1000px;
+  background-color: #444444;
+  font: normal 75% arial, sans-serif;
+  height: 65px;
+  padding: 8px 0;
+  text-align: center;
+  color: #FFF;
+}
+
+footer a {
+  color: #FFF;
+  padding: 0 3px;
+}

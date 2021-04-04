@@ -1,0 +1,40 @@
+<h3>Funds Transfer</h3>
+<button style="padding: 5px 10px; margin-bottom: 15px" (click)="payee()">Add Payee</button>
+
+<table>
+  <tr>
+    <td><b>From:</b></td>
+    <td>
+      <select>
+        <option>Select Account</option>
+        <option>Check In</option>
+        <option>Savings</option>
+        <option>ISA Cash</option>
+      </select>
+    </td>
+  </tr>
+  <tr>
+    <td><b>Payee:</b></td>
+    <td>
+      <select>
+        <option>Select Account</option>
+        <option>John</option>
+        <option>Micheal</option>
+        <option>Harry</option>
+      </select>
+    </td>
+  </tr>
+  <tr>
+    <td><b>Amount:</b></td>
+    <td><input type="number" placeholder="$ 0.00"></td>
+  </tr>
+  <tr>
+    <td><b>Remarks:</b></td>
+    <td><input type="text" placeholder="Enter remarks"></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <button style="padding: 5px 10px;" onclick="alert('Transfer done!')">Transfer</button>
+    </td>
+  </tr>
+</table>

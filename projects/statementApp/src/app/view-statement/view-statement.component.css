@@ -1,0 +1,16 @@
+table {
+  width: 80%;
+}
+
+tr {
+  cursor: pointer;
+}
+
+tr th {
+  border-bottom: 2px solid red;
+}
+
+tr td {
+  border-bottom: 1px dotted red;
+  height: 30px;
+}

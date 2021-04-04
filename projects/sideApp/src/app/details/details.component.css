@@ -1,0 +1,34 @@
+.wht-box {
+  background-color: #fff;
+  padding: 10px;
+  margin: 5px 5px 10px 5px;
+  border-radius: 5px;
+}
+
+.wht-box h3 {
+  margin: 0 0 15px 0;
+}
+
+.wht-box input {
+  padding: 4px;
+  width: 75%;
+}
+
+.wht-box h4 {
+  margin: 0;
+}
+
+.wht-box i {
+  color: #888888;
+}
+
+.wht-box i,
+.wht-box p {
+  font-size: 12px;;
+}
+
+a {
+  text-decoration: underline;
+  color: blue;
+  cursor: pointer;
+}

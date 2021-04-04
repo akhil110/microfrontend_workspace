@@ -1,0 +1,36 @@
+<h3>Add Payee</h3>
+        
+<table>
+  <tr>
+    <td><b>Nickname:</b></td>
+    <td><input type="text" placeholder="Enter Nickname"></td>
+  </tr>
+  <tr>
+    <td><b>Account No:</b></td>
+    <td><input type="number" placeholder="Enter Account No."></td>
+  </tr>
+  <tr>
+    <td><b>Beneficiary Name:</b></td>
+    <td><input type="text" placeholder="Enter Name"></td>
+  </tr>
+  <tr>
+    <td><b>Sort code:</b></td>
+    <td><input type="number" placeholder="Enter sort code"></td>
+  </tr>
+  <tr>
+    <td><b>Account Type:</b></td>
+    <td>
+      <select>
+        <option>Select Account Type</option>
+        <option>Check In</option>
+        <option>Savings</option>
+      </select>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <button style="padding: 5px 10px;" onclick="alert('Payee added!')">Add Payee</button>
+    </td>
+  </tr>
+</table>
+<button style="padding: 5px 10px; margin-top: 20px;" (click)="funds()">Back</button>
